@@ -1,0 +1,39 @@
+.calendar {
+    margin: 20px auto;
+    padding: 29px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+    color: #555;
+    background-color: #f7f7f7;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: #f7f7f7;
+}
+
+tr:nth-child(odd) td {
+    background-color: #f7f7f7;
+}
+
+body {
+background-color: aquamarine;
+}
